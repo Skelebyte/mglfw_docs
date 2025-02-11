@@ -1,1 +1,4 @@
 site_name: MGLFW
+site_url: https://skelebyte.github.io/mglfw_docs
+theme:
+  name: material
