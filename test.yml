@@ -1,16 +1,11 @@
-site_name: MGLFW
-# site_url: https://skelebyte.github.io/mglfw_docs
+site_name: my site
 theme:
-  name: material
-  custom_dir: overrides
   palette:
-    # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
 
-    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
 
@@ -19,7 +14,6 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 
-    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
@@ -31,8 +25,7 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tabs
-
-
+  name: material
 
 nav:
   - Docs:
@@ -40,15 +33,10 @@ nav:
   - Blog:
     - blog/index.md
 
-
-
-extra:
-  social:
-    - icon: custom/github
-      link: https://github.com/Skelebyte
-    - icon: custom/bluesky
-      link: https://bsky.app/profile/skelebyte.bsky.social
-
+# extra:
+#   social:
+#     - icon: assets/twitter
+#     - link: https://x.com/
 
 plugins:
   - search
