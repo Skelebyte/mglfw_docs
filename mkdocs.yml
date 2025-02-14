@@ -31,12 +31,14 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tabs
-
+    - content.code.copy
 
 
 nav:
   - Docs:
     - documentation/index.md
+    - documentation/Getting Started/index.md
+
   - Blog:
     - blog/index.md
 
@@ -49,6 +51,16 @@ extra:
     - icon: custom/bluesky
       link: https://bsky.app/profile/skelebyte.bsky.social
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 plugins:
   - search
